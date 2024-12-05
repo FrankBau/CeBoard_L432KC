@@ -1,0 +1,3 @@
+C:/Users/frank/OneDrive/Lehre/CeBoard/CeBoard_L432KC/CMakeFiles/CeBoard_L432KC.dir
+C:/Users/frank/OneDrive/Lehre/CeBoard/CeBoard_L432KC/CMakeFiles/edit_cache.dir
+C:/Users/frank/OneDrive/Lehre/CeBoard/CeBoard_L432KC/CMakeFiles/rebuild_cache.dir
