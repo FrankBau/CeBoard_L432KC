@@ -1,0 +1,16 @@
+# ninja log v5
+19	56	7552061877213035	CMakeFiles/CeBoard_L432KC.dir/Startup/startup_stm32l432kcux.s.obj	47751a3eba39f0f2
+5	111	7552061877739258	CMakeFiles/CeBoard_L432KC.dir/Src/delay.c.obj	eed62e06bf88becc
+11	116	7552061877797822	CMakeFiles/CeBoard_L432KC.dir/Src/system_stm32l4xx.c.obj	4b198762dfdddbe3
+17	84	7552061877483398	CMakeFiles/CeBoard_L432KC.dir/Src/sysmem.c.obj	12b83a0d47b2e142
+3	112	7552061877759247	CMakeFiles/CeBoard_L432KC.dir/Src/uart.c.obj	e839c488c27af24c
+7	112	7552061877759247	CMakeFiles/CeBoard_L432KC.dir/Src/tone.c.obj	1f1f8aad6a509114
+9	126	7552061877897799	CMakeFiles/CeBoard_L432KC.dir/Src/adc.c.obj	3705624f28c6d63a
+2	126	7552061877897799	CMakeFiles/CeBoard_L432KC.dir/Src/gpio.c.obj	25c281f53a01e50e
+12	140	7552061878037806	CMakeFiles/CeBoard_L432KC.dir/Src/main.c.obj	faab1780e9f52b2d
+15	235	7552061878993973	CMakeFiles/CeBoard_L432KC.dir/Src/syscall.c.obj	7836439bf1a894dd
+235	348	7552061879663679	CeBoard_L432KC.elf	f3e8d40352390eb9
+3	100	7552073962718008	CMakeFiles/CeBoard_L432KC.dir/Src/tone.c.obj	1f1f8aad6a509114
+1	101	7552073962728021	CMakeFiles/CeBoard_L432KC.dir/Src/uart.c.obj	e839c488c27af24c
+5	113	7552073962839932	CMakeFiles/CeBoard_L432KC.dir/Src/main.c.obj	faab1780e9f52b2d
+113	228	7552073963500033	CeBoard_L432KC.elf	f3e8d40352390eb9

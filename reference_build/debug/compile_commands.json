@@ -1,0 +1,62 @@
+[
+{
+  "directory": "C:/Users/frank/OneDrive/Lehre/CeBoard/CeBoard_L432KC/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.15.1\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Users/frank/OneDrive/Lehre/CeBoard/CeBoard_L432KC/Inc -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\CeBoard_L432KC.dir\\Src\\gpio.c.obj -c C:\\Users\\frank\\OneDrive\\Lehre\\CeBoard\\CeBoard_L432KC\\Src\\gpio.c",
+  "file": "C:\\Users\\frank\\OneDrive\\Lehre\\CeBoard\\CeBoard_L432KC\\Src\\gpio.c",
+  "output": "CMakeFiles\\CeBoard_L432KC.dir\\Src\\gpio.c.obj"
+},
+{
+  "directory": "C:/Users/frank/OneDrive/Lehre/CeBoard/CeBoard_L432KC/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.15.1\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Users/frank/OneDrive/Lehre/CeBoard/CeBoard_L432KC/Inc -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\CeBoard_L432KC.dir\\Src\\uart.c.obj -c C:\\Users\\frank\\OneDrive\\Lehre\\CeBoard\\CeBoard_L432KC\\Src\\uart.c",
+  "file": "C:\\Users\\frank\\OneDrive\\Lehre\\CeBoard\\CeBoard_L432KC\\Src\\uart.c",
+  "output": "CMakeFiles\\CeBoard_L432KC.dir\\Src\\uart.c.obj"
+},
+{
+  "directory": "C:/Users/frank/OneDrive/Lehre/CeBoard/CeBoard_L432KC/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.15.1\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Users/frank/OneDrive/Lehre/CeBoard/CeBoard_L432KC/Inc -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\CeBoard_L432KC.dir\\Src\\delay.c.obj -c C:\\Users\\frank\\OneDrive\\Lehre\\CeBoard\\CeBoard_L432KC\\Src\\delay.c",
+  "file": "C:\\Users\\frank\\OneDrive\\Lehre\\CeBoard\\CeBoard_L432KC\\Src\\delay.c",
+  "output": "CMakeFiles\\CeBoard_L432KC.dir\\Src\\delay.c.obj"
+},
+{
+  "directory": "C:/Users/frank/OneDrive/Lehre/CeBoard/CeBoard_L432KC/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.15.1\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Users/frank/OneDrive/Lehre/CeBoard/CeBoard_L432KC/Inc -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\CeBoard_L432KC.dir\\Src\\tone.c.obj -c C:\\Users\\frank\\OneDrive\\Lehre\\CeBoard\\CeBoard_L432KC\\Src\\tone.c",
+  "file": "C:\\Users\\frank\\OneDrive\\Lehre\\CeBoard\\CeBoard_L432KC\\Src\\tone.c",
+  "output": "CMakeFiles\\CeBoard_L432KC.dir\\Src\\tone.c.obj"
+},
+{
+  "directory": "C:/Users/frank/OneDrive/Lehre/CeBoard/CeBoard_L432KC/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.15.1\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Users/frank/OneDrive/Lehre/CeBoard/CeBoard_L432KC/Inc -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\CeBoard_L432KC.dir\\Src\\adc.c.obj -c C:\\Users\\frank\\OneDrive\\Lehre\\CeBoard\\CeBoard_L432KC\\Src\\adc.c",
+  "file": "C:\\Users\\frank\\OneDrive\\Lehre\\CeBoard\\CeBoard_L432KC\\Src\\adc.c",
+  "output": "CMakeFiles\\CeBoard_L432KC.dir\\Src\\adc.c.obj"
+},
+{
+  "directory": "C:/Users/frank/OneDrive/Lehre/CeBoard/CeBoard_L432KC/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.15.1\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Users/frank/OneDrive/Lehre/CeBoard/CeBoard_L432KC/Inc -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\CeBoard_L432KC.dir\\Src\\system_stm32l4xx.c.obj -c C:\\Users\\frank\\OneDrive\\Lehre\\CeBoard\\CeBoard_L432KC\\Src\\system_stm32l4xx.c",
+  "file": "C:\\Users\\frank\\OneDrive\\Lehre\\CeBoard\\CeBoard_L432KC\\Src\\system_stm32l4xx.c",
+  "output": "CMakeFiles\\CeBoard_L432KC.dir\\Src\\system_stm32l4xx.c.obj"
+},
+{
+  "directory": "C:/Users/frank/OneDrive/Lehre/CeBoard/CeBoard_L432KC/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.15.1\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Users/frank/OneDrive/Lehre/CeBoard/CeBoard_L432KC/Inc -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\CeBoard_L432KC.dir\\Src\\main.c.obj -c C:\\Users\\frank\\OneDrive\\Lehre\\CeBoard\\CeBoard_L432KC\\Src\\main.c",
+  "file": "C:\\Users\\frank\\OneDrive\\Lehre\\CeBoard\\CeBoard_L432KC\\Src\\main.c",
+  "output": "CMakeFiles\\CeBoard_L432KC.dir\\Src\\main.c.obj"
+},
+{
+  "directory": "C:/Users/frank/OneDrive/Lehre/CeBoard/CeBoard_L432KC/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.15.1\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Users/frank/OneDrive/Lehre/CeBoard/CeBoard_L432KC/Inc -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\CeBoard_L432KC.dir\\Src\\syscall.c.obj -c C:\\Users\\frank\\OneDrive\\Lehre\\CeBoard\\CeBoard_L432KC\\Src\\syscall.c",
+  "file": "C:\\Users\\frank\\OneDrive\\Lehre\\CeBoard\\CeBoard_L432KC\\Src\\syscall.c",
+  "output": "CMakeFiles\\CeBoard_L432KC.dir\\Src\\syscall.c.obj"
+},
+{
+  "directory": "C:/Users/frank/OneDrive/Lehre/CeBoard/CeBoard_L432KC/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.15.1\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Users/frank/OneDrive/Lehre/CeBoard/CeBoard_L432KC/Inc -fdata-sections -ffunction-sections -Wl,--gc-sections -g -std=gnu11 -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -Og -g3 -ggdb -o CMakeFiles\\CeBoard_L432KC.dir\\Src\\sysmem.c.obj -c C:\\Users\\frank\\OneDrive\\Lehre\\CeBoard\\CeBoard_L432KC\\Src\\sysmem.c",
+  "file": "C:\\Users\\frank\\OneDrive\\Lehre\\CeBoard\\CeBoard_L432KC\\Src\\sysmem.c",
+  "output": "CMakeFiles\\CeBoard_L432KC.dir\\Src\\sysmem.c.obj"
+},
+{
+  "directory": "C:/Users/frank/OneDrive/Lehre/CeBoard/CeBoard_L432KC/build/debug",
+  "command": "C:\\ST\\STM32CubeCLT_1.15.1\\GNU-tools-for-STM32\\bin\\arm-none-eabi-gcc.exe -DDEBUG -IC:/Users/frank/OneDrive/Lehre/CeBoard/CeBoard_L432KC -g -mthumb -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard -Wall -Wextra -Wpedantic -Wno-unused-parameter -x assembler-with-cpp -MMD -MP -Og -g3 -ggdb -o CMakeFiles\\CeBoard_L432KC.dir\\Startup\\startup_stm32l432kcux.s.obj -c C:\\Users\\frank\\OneDrive\\Lehre\\CeBoard\\CeBoard_L432KC\\Startup\\startup_stm32l432kcux.s",
+  "file": "C:\\Users\\frank\\OneDrive\\Lehre\\CeBoard\\CeBoard_L432KC\\Startup\\startup_stm32l432kcux.s",
+  "output": "CMakeFiles\\CeBoard_L432KC.dir\\Startup\\startup_stm32l432kcux.s.obj"
+}
+]
