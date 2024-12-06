@@ -1,3 +1,6 @@
+#ifndef __TONE_H
+#define __TONE_H
 
+void tone(int hz, unsigned int ms);
 
-void tone(float frequency, unsigned int duration_ms);
+#endif

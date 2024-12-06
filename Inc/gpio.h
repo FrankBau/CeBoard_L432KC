@@ -1,4 +1,5 @@
-#include <stm32l432xx.h>
+#ifndef __GPIO_H
+#define __GPIO_H
 
 
 #define  PA0 0x00
@@ -35,7 +36,6 @@
 #define PB14 0x1E
 #define PB15 0x1F
 
-
 void gpio_input(uint8_t Pxy);
 
 void gpio_output(uint8_t Pxy);
@@ -60,3 +60,8 @@ void gpio_set_1(uint8_t Pxy);
 
 void gpio_toggle(uint8_t Pxy);
 
+// for internal calculations
+#define GPIO_PORT(Pxy)   (GPIO_TypeDef*)(GPIOA_BASE + ((Pxy & 0xF0) << 6))
+#define GPIO_PIN(Pxy)    (Pxy & 0x0F)
+
+#endif
