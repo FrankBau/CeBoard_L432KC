@@ -1,5 +1,9 @@
 #include <stm32l432xx.h>
 
+#include <uart.h>
+
+#include <gpio.h>
+
 // setup of UART (USART2) peripheral block in the microcontroller
 
 // see STM32L43xxx reference manual (RM0394 Rev 4) for USART2 registers, bits, and function
@@ -10,21 +14,14 @@ extern uint32_t SystemCoreClock;
 
 void uart_init(void) __attribute__((constructor(500)));
 
-// USB VCP virtual com port connection
+// init USART2 for USB VCP virtual com port connection
 // PA2    ------> USART2_TX     pin alternate function: AF7 (see data sheet)
 // PA15   ------> USART2_RX     pin alternate function: AF3 (see data sheet)
 void uart_init(void)
 {
-    // setup UART pins:
-
-    RCC->AHB2ENR |= RCC_AHB2ENR_GPIOAEN; // enable clock for peripheral component
-    (void)RCC->AHB2ENR;                  // ensure that the last write command finished and the clock is on
-
-    GPIOA->MODER = (GPIOA->MODER & ~GPIO_MODER_MODE2_Msk) | (2 << GPIO_MODER_MODE2_Pos);   // set AF mode
-    GPIOA->AFR[0] = (GPIOA->AFR[0] & ~GPIO_AFRL_AFSEL2_Msk) | (7 << GPIO_AFRL_AFSEL2_Pos); // set pin AF7
-
-    GPIOA->MODER = (GPIOA->MODER & ~GPIO_MODER_MODE10_Msk) | (2 << GPIO_MODER_MODE10_Pos);   // set AF mode
-    GPIOA->AFR[1] = (GPIOA->AFR[1] & ~GPIO_AFRH_AFSEL15_Msk) | (3 << GPIO_AFRH_AFSEL15_Pos); // set pin AF3
+    // setup USART2 pins
+    gpio_alternate(PA2 , 7);
+    gpio_alternate(PA15, 3);
 
     // setup USART2
     RCC->APB1ENR1 |= RCC_APB1ENR1_USART2EN; // enable clock for peripheral component
@@ -32,7 +29,7 @@ void uart_init(void)
 
     uint32_t baud_rate = 115200UL;
     // USART1SEL  is assumed to be at reset default 00: PCLK selected as USART1 clock
-    USART2->BRR = SystemCoreClock / baud_rate;                // USARTDIV in ref.man. 38.5.4 USART baud rate generation
+    USART2->BRR = SystemCoreClock / baud_rate;  // USARTDIV in ref.man. 38.5.4 USART baud rate generation
     USART2->CR1 = USART_CR1_UE | USART_CR1_RE | USART_CR1_TE; // enable UART, RX, TX
 }
 

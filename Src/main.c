@@ -17,7 +17,7 @@ const uint8_t led[] = {PB0, PB1, PA8, PB3, PB5, PB4, PA1, PA0};
 
 const uint8_t button[2] = {PA6, PA5};
 
-// buzzer and analog (ADC) are swapped compared to the old F0 board
+// buzzer and analog (ADC) are swapped compared to the Nucleo-F042 board
 const uint8_t buzzer = PA3; // TIM15 CH2 (AF14)
 
 const uint8_t analog = PA4; // ADC1_IN9
